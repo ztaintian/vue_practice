@@ -1,10 +1,11 @@
-const moduleA = {
+const module = {
   state: {
     a: 1,
     b: 2,
     count: 1
   },
-  mutations: {increment (state) { state.count++ }
+  mutations: {
+    increment (state) { state.count++ }
   },
   actions: {},
   getters: {
@@ -13,5 +14,4 @@ const moduleA = {
     }
   }
 }
-
 export default moduleA
